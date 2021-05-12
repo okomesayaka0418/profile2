@@ -22,7 +22,11 @@ class MainActivity : AppCompatActivity() {
             profileImage.isVisible = true
 
             profileCommentText.isVisible = true
+
+
+
         }
+
 
 
     }
