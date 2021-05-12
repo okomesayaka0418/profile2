@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:backgroundTint="#00B4DC"
+                android:backgroundTint="#969696"
                 android:text="好きなスポーツ"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp" />
@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:backgroundTint="#00B4DC"
+                android:backgroundTint="#969696"
                 android:text="好きな食べ物"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp " />
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:backgroundTint="#00B4DC"
+                android:backgroundTint="#969696"
                 android:text="趣味"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp " />

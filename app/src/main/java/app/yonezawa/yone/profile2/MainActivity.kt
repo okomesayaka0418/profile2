@@ -1,5 +1,8 @@
 package app.yonezawa.yone.profile2
 
+import android.content.res.ColorStateList
+import android.graphics.Color
+import android.graphics.Color.rgb
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Parcel
@@ -26,6 +29,15 @@ class MainActivity() : AppCompatActivity(), Parcelable {
             //コメントをTextViewに反映する
             profileCommentText.text = "Androidメンターのランディだよ"
 
+            //押されたボタンの色を変える
+            button1.backgroundTintList = ColorStateList.valueOf(rgb(0, 180, 220));
+
+            //他のボタンの色を灰色に変える
+            button2.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+            button3.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+            button4.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+
+
             }
             //スポーツのボタンがタップされた時に
             button2.setOnClickListener {
@@ -35,6 +47,16 @@ class MainActivity() : AppCompatActivity(), Parcelable {
                 profileLabelText.text = "スポーツ"
                 //コメントをTextViewに反映する
                 profileCommentText.text = "野球観戦が好きで、スタジアムに通っている"
+
+                //押されたボタンの色を変える
+                button2.backgroundTintList = ColorStateList.valueOf(rgb(220, 0, 100));
+
+                //他のボタンの色を灰色に変える
+                button1.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+                button3.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+                button4.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+
+
             }
             //好きな食べ物のボタンがタップされた時に
             button3.setOnClickListener {
@@ -44,6 +66,15 @@ class MainActivity() : AppCompatActivity(), Parcelable {
                 profileLabelText.text = "好きな食べ物 "
                 //コメントをTextViewに反映する
                 profileCommentText.text = "キャンディやドーナツが大好き"
+
+                //押されたボタンの色を変える
+                button3.backgroundTintList = ColorStateList.valueOf(rgb(0, 180, 120));
+
+                //他のボタンの色を灰色に変える
+                button1.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+                button2.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+                button4.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+
             }
 
             //趣味のボタンがタップされた時に
@@ -54,7 +85,16 @@ class MainActivity() : AppCompatActivity(), Parcelable {
                 profileLabelText.text = "趣味"
                 //コメントをTextViewに反映する
                 profileCommentText.text = "ガジェットを集めて動かすこと"
-        }
+
+                //押されたボタンの色を変える
+                button4.backgroundTintList = ColorStateList.valueOf(rgb(0, 180, 120));
+
+                //他のボタンの色を灰色に変える
+                button1.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+                button2.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+                button3.backgroundTintList = ColorStateList.valueOf(rgb(150, 150, 150));
+
+            }
 
     }
 
